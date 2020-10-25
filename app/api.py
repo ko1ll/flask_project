@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, abort
 from flask_httpauth import HTTPBasicAuth
 import re
-from .mods import *
+from mods import *
 from passlib import pwd
 
 app = Flask(__name__)

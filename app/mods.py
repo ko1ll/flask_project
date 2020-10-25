@@ -1,4 +1,4 @@
-from .api import app
+from api import app
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from sqlalchemy import ForeignKey
